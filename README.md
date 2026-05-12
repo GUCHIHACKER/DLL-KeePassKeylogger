@@ -1,6 +1,6 @@
 # KeePass DLL Hijacking — Keylogger
 
-A DLL hijacking proof-of-concept targeting **KeePass 1.x and KeePassXC**. The malicious DLL masquerades as `bcrypt.dll` and hooks `ToUnicodeEx` via [MinHook](https://github.com/TsudaKageyu/minhook) to capture keystrokes typed inside KeePass.
+A DLL hijacking proof-of-concept targeting **KeePass 2.x and KeePassXC**. The malicious DLL masquerades as `bcrypt.dll` and hooks `ToUnicodeEx` via [MinHook](https://github.com/TsudaKageyu/minhook) to capture keystrokes typed inside KeePass.
 
 ## How it works
 
